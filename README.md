@@ -16,7 +16,7 @@ pm2 start logrotate.py --name "py-logrotate" --time --interpreter=python --no-au
 ```javascript
     {
         name: "py-logrotate",
-        cwd: "in_your_path",
+        cwd: "in your path",
         script: "logrotate.py",
         interpreter: "python",
         merge_logs: false,
