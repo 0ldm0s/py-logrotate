@@ -26,4 +26,4 @@ for _conf_ in jdata:
         out_log_handler.doRollover()
         need_restart = True
     if need_restart:
-        os.system(f"pm2 restart {pm_id}")
+        os.system(f"pm2 reload {pm_id}")
